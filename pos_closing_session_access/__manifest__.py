@@ -53,6 +53,7 @@ Compatible with Odoo POS interface.
         ],
     },
 
+    "images": ["static/description/banner.png"],
     'installable': True,
     'application': False,
     'license': 'LGPL-3',

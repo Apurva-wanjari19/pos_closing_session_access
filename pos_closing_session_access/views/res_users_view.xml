@@ -1,0 +1,14 @@
+<odoo>
+    <record id="view_users_form_pos_close_access" model="ir.ui.view">
+        <field name="name">res.users.form.pos.close.access</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//field[@name='company_id']" position="after">
+                <field name="pos_close_session_access"/>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>

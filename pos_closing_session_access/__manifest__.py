@@ -33,7 +33,7 @@ Compatible with Odoo POS interface.
     """,
 
     'author': "Apurva Wanjari",
-    'website': "https://www.yourcompany.com",
+    'website': "https://apps.odoo.com/apps/modules/browse?search=apurva+wanjari",
 
     'category': 'Point of Sale',
     'version': '19.0.1.0.0',
@@ -53,6 +53,7 @@ Compatible with Odoo POS interface.
         ],
     },
 
+    "images": ["static/description/banner.png"],
     'installable': True,
     'application': False,
     'license': 'LGPL-3',
